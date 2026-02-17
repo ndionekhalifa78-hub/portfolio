@@ -4,9 +4,9 @@ with st.sidebar:
     st.image("Khalifa.PNG", width=180)
     st.info("Information Personnelle")
     st.write("Prénom: Khalifa Ababacar") 
-    st.write("Nom: NDIONE""")
+    st.write("Nom: NDIONE")
     st.write("Géomaticien")
-    st.write(" 📧email:ndionekhalifa78@gmail.com")
+    st.markdown("""📧email:ndionekhalifa78@gmail.com""")
     st.write("📞 Téléphone:776885051")
     st.write("📍Adresse:Dakar-HLM5")
     
