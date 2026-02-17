@@ -1,17 +1,17 @@
 import streamlit as st
 
 with st.sidebar:
-    st.markdown("""
-    Khalifa Ababacar NDIONE""")
-    st.markdown("""Géomaticien""")
-    st.markdown("""email:
-    ndionekhalifa78@gmail.com""")
-    st.markdown("""Téléphone:
-    776885051""")
-    st.markdown("""Adresse:
-    Dakar-HLM5""")
-    st.markdown("""Diplômes
-                
+    st.image("Khalifa.PNG", width=180)
+    st.info("Information Personnelle")
+    st.write("Prénom: Khalifa Ababacar") 
+    st.write("Nom: NDIONE""")
+    st.write("Géomaticien")
+    st.write(" 📧email:ndionekhalifa78@gmail.com")
+    st.write("📞 Téléphone:776885051")
+    st.write("📍Adresse:Dakar-HLM5")
+    
+    st.markdown("""🎓Diplômes
+              
     * BTS en Géomatique 
     * Master en Géographie 
     * Licence en Géographie
@@ -20,7 +20,7 @@ with st.sidebar:
 
 st.markdown("""Ingénieur Géographe et Technicien supérieur en géomatique,je suis passionné par l'analyse, le traitement et la gestion des bases de données. Ainsi, grâce à mes connaissances et compétences, j'aimerais participer à la réalisation de projets et apporter des solutions face aux problèmes que rencontre le territoire.""")
 
-st.header("Compétences")
+st.header("📚Compétences")
 st.markdown(""" 
 
 * Systèmes d'Information Géographique (SIG) : Maîtrise de logiciels comme QGIS, ArcGIS.
@@ -30,9 +30,9 @@ st.markdown("""
 * Acquisition de données : Topographie, GPS, numérisation, digitalisation, télédétection, imagerie satellite et drones.
 * Informatique et programmation : Langages de script (Python), langages web, automatisation de traitements. 
 * Réalisation de plan 2D et 3D sur Autocad et Sketchup
-* Analyse et synthèse : Comprendre les enjeux territoriaux et les traduire en données.""")
+* Analyse et synthèse : Comprendre les enjeux territoriaux et les traduires en données.""")
 
-st.header("Expériences")
+st.header("👨‍💻Expériences")
 st.markdown("""
 * Digitalisation et correction topologique (batis, route, arbre) de notre quartier sur Qgis et Arcgis.
 
@@ -48,6 +48,7 @@ st.markdown("""
 
 * Création de base de données sur Qgis (géopackage et spatialite) et sur Arcgis (file géodatabase et personal géodatabase)
 """)
+st.header("🗂️Projets")
 
 
 
