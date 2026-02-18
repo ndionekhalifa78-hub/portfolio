@@ -6,9 +6,9 @@ with st.sidebar:
     st.write("Prénom: Khalifa Ababacar") 
     st.write("Nom: NDIONE")
     st.write("Géomaticien")
-    st.markdown("""📧email:ndionekhalifa78@gmail.com""")
-    st.write("📞 Téléphone:776885051")
-    st.write("📍Adresse:Dakar-HLM5")
+    st.write("📧email: ndionekhalifa78@gmail.com")
+    st.write("📞 Téléphone: 776885051")
+    st.write("📍Adresse: Dakar-HLM5")
     
     st.markdown("""🎓Diplômes
               
